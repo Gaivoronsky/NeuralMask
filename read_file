@@ -12,7 +12,7 @@ def has_nan(keypoints):
     for i in range(len(keypoints)):
         if math.isnan(keypoints[i]):
             return True
-    return False
+    return False 
 
 # Постоение изображения по точкам
 def visualize_points(img, points):
